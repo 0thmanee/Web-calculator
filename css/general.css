@@ -1,0 +1,71 @@
+:root {
+  --main-color: #458500;
+  --main-tint-color: #5d9521;
+  --gray-color: #2e2e2e;
+  --gray-tint-color: #585858;
+  --p-color: #fff;
+  --p-dark-color: #9f9f9f;
+  --bcg-color: #1d1d1d;
+  --subh-color: ;
+  --main-transition: 0.3s;
+  --section-padding: ;
+  --main-lnhgt: ;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bcg-color);
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 15rem;
+}
+@media (max-width: 48em) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+/* SMALL DEVICES: 768px */
+@media (min-width: 48em) {
+  .container {
+    width: 75rem;
+  }
+}
+/* MEDIUM DEVICES: 992px */
+@media (min-width: 62em) {
+  .container {
+    width: 97rem;
+  }
+}
+@media (max-width: 70em) {
+}
+/* LARGE DEVICES: 1200px */
+@media (min-width: 75em) {
+  .container {
+    width: 117rem;
+  }
+}
